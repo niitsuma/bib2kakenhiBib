@@ -1,0 +1,28 @@
+\documentclass{jarticle}
+
+\usepackage{url}
+
+\begin{document}
+
+%\input{list-bbl.tex}
+
+\bibliographystyle{bunken-KLbibitem}
+%\bibliographystyle{bunkenxml-xref}
+
+% 参考文献スタイルは bunkenhtml-xref を指定
+%\bibliographystyle{bunkenhtml-xref}
+
+%\bibliographystyle{bunkentable-xref}
+%\bibliographystyle{plain}
+%\bibliographystyle{jplain}
+%\bibliographystyle{junsrt}
+%\bibliographystyle{plain-mod}
+%\bibliographystyle{alpha}
+%\bibliographystyle{bunkentable}
+% 文献データベースとしては mypapers.bib を使う．
+
+\bibliography{mypapers}
+% HTMLに載せたい文献を list_cite.tex 中で \cite を用いて
+% 好きなだけ引用してください．
+\input{list_cite.tex}
+\end{document}
